@@ -1,0 +1,194 @@
+[{
+    "id": "cuzquena-beer",
+    "name": "Cuzquena",
+    "price": 43,
+    "category": "Beer",
+    "img": "public/images/cuzquenaBeer.jpg",
+    "description": "Cusqueña is a super-premium lager from Cuzco, the seat of the Inca empire. Brewed since 1911, it uses only the finest natural ingredients, including pure mountain water from a source at 18,000 feet in the Peruvian Andes."
+}, {
+    "id": "baileys-liqueur",
+    "name": "Baileys",
+    "price": 63,
+    "category": "Liqueur",
+    "img": "public/images/baileys.jpg"
+}, {
+    "id": "peroni-beer",
+    "name": "Peroni",
+    "price": 46,
+    "category": "Beer",
+    "img": "public/images/peroniBeer.jpeg"
+}, {
+    "id": "corona-beer",
+    "name": "corona",
+    "price": 40,
+    "category": "Beer",
+    "img": "public/images/coronaBeer.jpg"
+}, {
+    "id": "brahma-brazil-beer",
+    "name": "Brahma",
+    "price": 44,
+    "category": "Beer",
+    "img": "public/images/brahma_beer_brazil.jpg"
+}, {
+    "id": "smirnoff-vodka",
+    "name": "Smirnoff Vodka",
+    "price": 84,
+    "category": "Vodka",
+    "img": "public/images/SmirnoffVodka.jpg"
+}, {
+    "id": "havana-club-rum",
+    "name": "Havana Club",
+    "price": 99,
+    "category": "Rum",
+    "img": "public/images/havanaclub.jpg"
+}, {
+    "id": "havana-club-white-rum",
+    "name": "Havana Club White",
+    "price": 90,
+    "category": "Rum",
+    "img": "public/images/havanaclub-white.jpg"
+}, {
+    "id": "johnnie-walker-blue-label",
+    "name": "JW Blue Label",
+    "price": 164,
+    "category": "Whiskey",
+    "img": "public/images/johnnie-walker-blue-label.jpg"
+}, {
+    "id": "leech-pilsener-beer",
+    "name": "Leech Pilsener.",
+    "price": 39,
+    "category": "Beer",
+    "img": "public/images/lechBeer.jpg"
+}, {
+    "id": "miller-beer",
+    "name": "Miller",
+    "price": 45,
+    "category": "Beer",
+    "img": "public/images/millerBeer.jpg"
+}, {
+    "id": "negra-modelo-beer",
+    "name": "Negra Modelo",
+    "price": 47,
+    "category": "Beer",
+    "img": "public/images/negramodelo.jpg"
+}, {
+    "id": "paulaner-beer",
+    "name": "Paulaner",
+    "price": 43,
+    "category": "Beer",
+    "img": "public/images/paulanerbeer.jpg"
+}, {
+    "id": "redbridge-beer",
+    "name": "Redbridge",
+    "price": 49,
+    "category": "Beer",
+    "img": "public/images/redbridgebeer.jpg"
+}, {
+    "id": "jose-cuervo-black-tequila",
+    "name": "Jose Cuervo Black",
+    "price": 87,
+    "category": "Tequila",
+    "img": "public/images/tequila-josecuervo.jpg"
+}, {
+    "id": "josecuervo-special-tequila",
+    "name": "Jose Cuervo",
+    "price": 80,
+    "category": "Tequila",
+    "img": "public/images/tequila-josecuervo-special.jpg"
+}, {
+    "id": "willough-beer",
+    "name": "Willoughby",
+    "price": 44,
+    "category": "Beer",
+    "img": "public/images/willoughbybeer.jpg"
+}, {
+    "id": "johnnie-walker-swing-superior",
+    "name": "JW Swing Superior",
+    "price": 178,
+    "category": "Whiskey",
+    "img": "public/images/Johnnie-Walker-Swing-Superior.png"
+}, {
+    "id": "kahlua-coffee-liqueur",
+    "name": "Khalua",
+    "price": 65,
+    "category": "Liqueur",
+    "img": "public/images/kahlua-coffee.jpg"
+}, {
+    "id": "galliano-liqueur",
+    "name": "Galiano",
+    "price": 64,
+    "category": "Liqueur",
+    "img": "public/images/galliano-liqueur.jpg"
+}, {
+    "id": "pisang-ambon-liqueur",
+    "name": "Pisang Ambon",
+    "price": 66,
+    "category": "Liqueur",
+    "img": "public/images/pisang-ambon-liqueur.jpg"
+}, {
+    "id": "kilnenny-beer",
+    "name": "Kilkenny",
+    "price": 48,
+    "category": "Beer",
+    "img": "public/images/Kilkenny_Irish_Beer.jpg"
+}, {
+    "id": "brasserie-guinness-beer",
+    "name": "Brasserie Guinness",
+    "price": 45,
+    "category": "Beer",
+    "img": "public/images/Brasserie_Guinness.jpg"
+}, {
+    "id": "johnnie-walker-gold-label",
+    "name": "JW Gold Label",
+    "price": 198,
+    "category": "Whiskey",
+    "img": "public/images/johnnie-walker-gold-label.jpg"
+}, {
+    "id": "johnnie-walker-green-label",
+    "name": "JW Green Label",
+    "price": 188,
+    "category": "Whiskey",
+    "img": "public/images/johnnie-walker-green-label.jpg"
+}, {
+    "id": "patron-silver-tequila",
+    "name": "Patron Silver",
+    "price": 89,
+    "category": "Tequila",
+    "img": "public/images/patron-silver-tequila.jpg"
+}, {
+    "id": "olmeca-tequila",
+    "name": "Olmeca",
+    "price": 90,
+    "category": "Tequila",
+    "img": "public/images/olmeca-tequila.jpg"
+}, {
+    "id": "bacardi-black-rum",
+    "name": "Bacardi Black",
+    "price": 99,
+    "category": "Rum",
+    "img": "public/images/bacardi-black-rum.jpg"
+}, {
+    "id": "appleten-state-jamaica-rum",
+    "name": "Appleten State",
+    "price": 97,
+    "category": "Rum",
+    "img": "public/images/appleten-state-jamaica-rum.jpg"
+}, {
+    "id": "belvedere-vodka",
+    "name": "Belvedere Pure",
+    "price": 84,
+    "category": "Vodka",
+    "img": "public/images/vodka-belvedere-pure.jpg"
+}, {
+    "id": " greygoose-vodka",
+    "name": "Grey Goose",
+    "price": 84,
+    "category": "Vodka",
+    "img": "public/images/greygoose-vodka.jpg"
+}, {
+    "id": "absolute-vodka",
+    "name": "Absolut Vodka",
+    "price": 84,
+    "category": "Vodka",
+    "img": "public/images/absolutvodka.jpg"
+}]

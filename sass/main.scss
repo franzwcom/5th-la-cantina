@@ -1,0 +1,122 @@
+body{
+	//background-color:orange;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| thumbnail for products
+|--------------------------------------------------------------------------
+*/
+.thumbnail {
+background-color: #fff;
+border: 1px solid #D3D3D3;
+border-radius: 0px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| inpout fields  flat square
+|--------------------------------------------------------------------------
+*/
+
+.form-control {
+color: #555;
+border: 1px solid #ccc;
+border-radius: 0px;
+}
+
+.btn{
+	border-radius: 0px; 
+}
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| jumbotron and container banner
+|--------------------------------------------------------------------------
+*/
+.jumbotron {
+	padding: 30px 15px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #fff;
+}
+
+
+
+.containerbanner {
+				text-align: center;
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			.content {
+				//text-align: center;
+				//display: inline-block;
+			}
+
+			.title {
+				font-size: 60px;
+				font-family: 'Lato', sans-serif;
+				font-weight: 100; 
+				margin-bottom: 40px;
+			}
+
+.jumbotron {
+	h1{
+		color : #B0BEC5;
+
+	}
+}
+
+/*
+|--------------------------------------------------------------------------
+| search by category
+|--------------------------------------------------------------------------
+*/
+
+
+ul{
+		padding-left:0px;
+	}
+.filterByCategory{
+	list-style:none;
+
+	li{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400; 
+		
+	}
+}
+
+.xxx{
+	//background-color:orange;
+	// for debugging
+}
+
+
+.box1{
+	//background-color:gray;
+}
+.box2{
+	//background-color:aqua;
+}
+.box3{
+	//background-color:orange;
+}
+
+/*
+|-----------------------------------------------------------
+| add to cart button 
+|-----------------------------------------------------------
+*/
+
+.addtocart-btn{
+	margin-top:10px;
+	//background-color:black;
+}
