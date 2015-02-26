@@ -1,0 +1,84 @@
+
+<!-- the product -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
+        <a class="btn btn-success" href="#/">back</a>
+            <div class="thumbnail xxx">
+
+                <img class="img-responsive " ng-src="{{ product.img }}" alt="{{product.name}}">
+
+                <div class="caption">
+                    <h4>{{product.name}}</h4>
+                    <p>Price: {{ product.price }} .DKK </p>
+                    <p>Description: {{ product.description }}</p>
+
+                    <form ng-submit="sendtoChart(product)">
+                        <div class="form-group">
+                            <input class="form-control" type="number" ng-model="quantity" />
+                            <button type="submit" class="btn btn-success addtocart-btn">Add to Cart</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div ng-controller="cartController" class="col-lg-7 col-md-7 col-sm-12 col-xs-12 box3">
+            <h4>Cart</h4>
+            <table class="table xtable-bordered table-hover table-striped">
+                <tr class="info">
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Confirm</th>
+                    <th>Delete</th>
+                </tr>
+                <tr ng-repeat="cartProduct in cartProducts">
+                    <td> {{ cartProduct.product.name}} </td>
+                    <td> {{ cartProduct.quantity}} </td>
+                    <td> {{ cartProduct.total}}</td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <form>
+                            <button type="button" ng-click="deleteCartProduct(cartProduct)" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Sum</td>
+                    <td></td>
+
+                    <td>{{ totalsum}}</td>
+                    <td><button type="submit" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Payment</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+<!-- end the product -->
+
+
