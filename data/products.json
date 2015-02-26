@@ -3,7 +3,7 @@
     "name": "Cuzquena",
     "price": 43,
     "category": "Beer",
-    "img": "public/images/cuzquenabeer.jpg",
+    "img": "public/images/cuzquenaBeer.jpg",
     "description": "Cusqueña is a super-premium lager from Cuzco, the seat of the Inca empire. Brewed since 1911, it uses only the finest natural ingredients, including pure mountain water from a source at 18,000 feet in the Peruvian Andes."
 }, {
     "id": "baileys-liqueur",
@@ -16,13 +16,13 @@
     "name": "Peroni",
     "price": 46,
     "category": "Beer",
-    "img": "public/images/peronibeer.jpeg"
+    "img": "public/images/peroniBeer.jpeg"
 }, {
     "id": "corona-beer",
     "name": "corona",
     "price": 40,
     "category": "Beer",
-    "img": "public/images/coronabeer.jpg"
+    "img": "public/images/coronaBeer.jpg"
 }, {
     "id": "brahma-brazil-beer",
     "name": "Brahma",
@@ -58,13 +58,13 @@
     "name": "Leech Pilsener.",
     "price": 39,
     "category": "Beer",
-    "img": "public/images/lechbeer.jpg"
+    "img": "public/images/lechBeer.jpg"
 }, {
     "id": "miller-beer",
     "name": "Miller",
     "price": 45,
     "category": "Beer",
-    "img": "public/images/millerbeer.jpg"
+    "img": "public/images/millerBeer.jpg"
 }, {
     "id": "negra-modelo-beer",
     "name": "Negra Modelo",
