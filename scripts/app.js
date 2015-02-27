@@ -8,7 +8,8 @@
             "ngRoute",
             "lacantina.cart",
             "lacantina.product",
-            "lacantina.prod"
+            "lacantina.prod",
+            "lacantina.checkout"
         ])
         .config(function($routeProvider) {
             $routeProvider
@@ -19,6 +20,10 @@
                 .when("/", {
                     templateUrl: './views/main.html',
                     controller: 'productController'
+                })
+                .when("/checkout", {
+                    templateUrl: './views/checkoutcart.html',
+                    controller: 'checkoutController'
                 })
                 .otherwise({
                     redirectTo: '/'

@@ -1,0 +1,104 @@
+<div class="container">
+    <div class="row">
+        <div ng-controller="cartController" class="col-lg-7 col-md-7 col-sm-12 col-xs-12 box3">
+            <h4>Cart</h4>
+            <table class="table xtable-bordered table-hover table-striped">
+                <tr class="info">
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Confirm</th>
+                    <th>Delete</th>
+                </tr>
+                <tr ng-repeat="cartProduct in cartProducts">
+                    <td> {{cartProduct.product.name }} </td>
+                    <td> {{cartProduct.quantity }} </td>
+                    <td> {{ cartProduct.total }}</td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <form>
+
+                            <button type="button" ng-click="deleteCartProduct(cartProduct)" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Sum</td>
+                    <td></td>
+
+                    <td>{{ totalsum }}</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<div class="container keepshopping-btn">
+    <div class="row">
+        <a class="btn btn-success" href="#/">keep shooping</a>
+    </div>
+</div>
+
+<!-- Credit card form -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><img class="pull-right" src="http://i76.imgup.net/accepted_c22e0.png">Payment Details</h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form" id="payment-form">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="cardNumber">CARD NUMBER</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="cardNumber" placeholder="Valid Card Number" required autofocus data-stripe="number" />
+                                        <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label for="expMonth">EXPIRATION DATE</label>
+                                    <div class="col-xs-6 col-lg-6 pl-ziro">
+                                        <input type="text" class="form-control" name="expMonth" placeholder="MM" required data-stripe="exp_month" />
+                                    </div>
+                                    <div class="col-xs-6 col-lg-6 pl-ziro">
+                                        <input type="text" class="form-control" name="expYear" placeholder="YY" required data-stripe="exp_year" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 pull-right">
+                                <div class="form-group">
+                                    <label for="cvCode">CV CODE</label>
+                                    <input type="password" class="form-control" name="cvCode" placeholder="CV" required data-stripe="cvc" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button class="btn btn-success btn-lg btn-block" onClick="alert('Your Payment has been accepted' )" type="submit">Place Order</button>
+                            </div>
+                        </div>
+                        <div class="row" style="display:none;">
+                            <div class="col-xs-12">
+                                <p class="payment-errors"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

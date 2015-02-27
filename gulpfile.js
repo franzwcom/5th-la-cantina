@@ -22,6 +22,7 @@ gulp.task('scripts', function() {
             "scripts/controllers/product.service.js",
             "scripts/controllers/cart.controller.js",
             "scripts/controllers/cart.service.js",
+            "scripts/controllers/checkoutcart.controller.js"
 
         ])
         .pipe(concat('master.min.js'))
